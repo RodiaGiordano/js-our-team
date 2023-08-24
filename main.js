@@ -22,12 +22,51 @@ Organizzare i singoli membri in card/schede
 // Barbara Ramos		Graphic Designer		barbara-ramos-graphic-designer.jpg
 
 
-const teamGuys = [wayneBarnet, angelaCarrol, walterGordon, angelaLopez, scottEstrada, barbaraRamos];
 
 
 const wayneBarnet = {
     name: 'Wayne Barnett',
     jobRole: 'Founder & CEO',
+    photo: 'wayne-barnett-founder-ceo.jpg'
     
-
 }
+
+const angelaCarroll = {
+    name: 'Angela Caroll',
+    jobRole: 'Chief Editor',
+    photo: 'angela-caroll-chief-editor.jpg',
+}
+
+
+const walterGordon = {
+    name: 'Walter Gordon',
+    jobRole: 'Office Manager',
+    photo: 'walter-gordon-office-manager.jpg',
+}
+
+
+const angelaLopez = {
+    name: 'Angela Lopez',
+    jobRole: 'Social Media Manager',
+    photo: 'angela-lopez-social-media-manager.jpg',
+}
+
+
+const scottEstrada = {
+    name: 'Scott Estrada',
+    jobRole: 'Developer',
+    photo: 'scott-estrada-developer.jpg',
+}
+
+
+const barbaraRamos = {
+    name: 'Barbara Ramos',
+    jobRole: 'Graphic Designer',
+    photo: 'barbara-ramos-graphic-designer.jpg',
+}
+const teamGuys = [wayneBarnet, angelaCarroll, walterGordon, angelaLopez, scottEstrada, barbaraRamos];
+
+console.log(scottEstrada)
+console.log(teamGuys)
+
+
