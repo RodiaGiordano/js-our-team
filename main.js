@@ -27,42 +27,42 @@ Organizzare i singoli membri in card/schede
 const wayneBarnet = {
     name: 'Wayne Barnett',
     jobRole: 'Founder & CEO',
-    photo: 'wayne-barnett-founder-ceo.jpg'
+    photo: `<img src="./img/wayne-barnett-founder-ceo.jpg" alt="">`
     
 }
 
 const angelaCarroll = {
     name: 'Angela Caroll',
     jobRole: 'Chief Editor',
-    photo: 'angela-caroll-chief-editor.jpg',
+    photo: `<img src="./img/angela-caroll-chief-editor.jpg" alt="">`,
 }
 
 
 const walterGordon = {
     name: 'Walter Gordon',
     jobRole: 'Office Manager',
-    photo: 'walter-gordon-office-manager.jpg',
+    photo: `<img src="./img/walter-gordon-office-manager.jpg" alt="">`,
 }
 
 
 const angelaLopez = {
     name: 'Angela Lopez',
     jobRole: 'Social Media Manager',
-    photo: 'angela-lopez-social-media-manager.jpg',
+    photo: `<img src="./img/angela-lopez-social-media-manager.jpg" alt="">`,
 }
 
 
 const scottEstrada = {
     name: 'Scott Estrada',
     jobRole: 'Developer',
-    photo: 'scott-estrada-developer.jpg',
+    photo: `<img src="./img/scott-estrada-developer.jpg" alt="">`,
 }
 
 
 const barbaraRamos = {
     name: 'Barbara Ramos',
     jobRole: 'Graphic Designer',
-    photo: 'barbara-ramos-graphic-designer.jpg',
+    photo: `<img src="./img/barbara-ramos-graphic-designer.jpg" alt="">`,
 }
 const teamGuys = [wayneBarnet, angelaCarroll, walterGordon, angelaLopez, scottEstrada, barbaraRamos];
 
