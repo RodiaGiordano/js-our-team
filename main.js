@@ -50,11 +50,11 @@ const container = document.getElementById('wrapper');
 for(let i = 0; i <= teamGuys.length; i++){
 
         
-        const name = teamGuys[i].name
+        const name = teamGuys[i].name;
         
-        const jobRole = teamGuys[i].jobRole
+        const jobRole = teamGuys[i].jobRole;
 
-        const photo = teamGuys[i].photo
+        const photo = teamGuys[i].photo;
         
 
 
@@ -62,7 +62,7 @@ for(let i = 0; i <= teamGuys.length; i++){
         <div class="card" style="width: 18rem;">
         <img src="./img/${photo}" class="card-img-top" alt="">
         <div class="card-body">
-          <p class="card-text">${name}</p>
+          <h3>${name}</h3>
           <p class="card-text">${jobRole}</p>
           </div>
       </div>`
