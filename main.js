@@ -66,7 +66,20 @@ const barbaraRamos = {
 }
 const teamGuys = [wayneBarnet, angelaCarroll, walterGordon, angelaLopez, scottEstrada, barbaraRamos];
 
-console.log(scottEstrada)
-console.log(teamGuys)
+// console.log(scottEstrada)
+// console.log(teamGuys)
+
+// MILESTONE 0:
+
+//---
+
+// MILESTONE 1:
+for(const member of teamGuys){
+        
+    for(let attribute in member){
+        console.log(member[attribute])
+    }
+    console.log('')
+}
 
 
