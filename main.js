@@ -74,12 +74,30 @@ const teamGuys = [wayneBarnet, angelaCarroll, walterGordon, angelaLopez, scottEs
 //---
 
 // MILESTONE 1:
-for(const member of teamGuys){
+
+// const person1 = document.getElementById('person1')
+// const person2 = document.getElementById('person2')
+// const person3 = document.getElementById('person3')
+const container = document.getElementById('wrapper');
+
+//MILESTONE 2:
+
+for(let i = 0; i <= teamGuys.length; i++){
+
+        const member = teamGuys[i]
         
-    for(let attribute in member){
-        console.log(member[attribute])
+
+        let informationGuy = "";
+
+    for(let attribute in teamGuys[i]){
+
+        informationGuy += member[attribute];
+        // console.log(' ')
     }
-    console.log('')
+    
+    
+    container.innerHTML += `<div id="guy${i}">${informationGuy}</div>`
+    
 }
 
-
+ 
